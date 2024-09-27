@@ -1,42 +1,42 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.display {
+  display: inline-flex;
+  gap: 4px;
+  padding: 3px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.dropdown-content {
+  position: fixed;
+  background-color: white;
+  padding: 10px;
+  margin-top: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 200px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Individual dropdown sections */
+.dropdown-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.dropdown-section label {
+  margin-right: 10px;
 }
 
-.card {
-  padding: 2em;
+.dropdown-section select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
 }
 
-.read-the-docs {
-  color: #888;
-} */
+.header-container{
+  width: 100%;
+  padding: 15px;
+}
